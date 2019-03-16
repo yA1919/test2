@@ -22,7 +22,7 @@ window.onload = function (e) {
 
     document.getElementById('openwindowexternalbutton').addEventListener('click', function () {
         liff.openWindow({
-            url: ''https://line.me/ti/p/o9B0W-cYuD,
+            url: 'https://line.me/ti/p/o9B0W-cYuD',
             external: true
         });
     });
