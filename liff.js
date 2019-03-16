@@ -16,13 +16,13 @@ window.onload = function (e) {
     // https://developers.line.me/ja/reference/liff/#liffopenwindow()
     document.getElementById('openwindowbutton').addEventListener('click', function () {
         liff.openWindow({
-            url: 'https://line.me'
+            url: 'https://line.me/ti/p/o9B0W-cYuD'
         });
     });
 
     document.getElementById('openwindowexternalbutton').addEventListener('click', function () {
         liff.openWindow({
-            url: 'https://line.me',
+            url: ''https://line.me/ti/p/o9B0W-cYuD,
             external: true
         });
     });
@@ -32,7 +32,7 @@ window.onload = function (e) {
         // https://developers.line.me/ja/reference/liff/#liffsendmessages()
         liff.sendMessages([{
             type: 'text',
-            text: "テキストメッセージの送信"
+            text: "やっほー"
         }, {
             type: 'sticker',
             packageId: '2',
